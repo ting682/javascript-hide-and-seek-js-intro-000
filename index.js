@@ -24,8 +24,9 @@ function deepestChild(){
   var lisChild;
   while(lis.tagName === "DIV"){
 
-      lisChild = lis.querySelector('div')
-
+      lisChild = lis
+      lis = lis.querySelector('div')
+      
   }
 
   return lisChild;
