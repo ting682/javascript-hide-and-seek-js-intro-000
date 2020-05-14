@@ -22,10 +22,10 @@ function deepestChild(){
   debugger
   var lis = document.getElementById('app').querySelector('div#grand-node')
   do{
-    if(lis.tagName === 'div'){
+    
       lis = lis.querySelector('div')
-    }
-  } while(lis.tagName === 'div')
+  
+  } while(lis.tagName === 'DIV')
 
   return lis[0];
 
