@@ -23,11 +23,11 @@ function deepestChild(){
   var lis = document.getElementById('app').querySelector('div#grand-node')
   var lisChild;
   while(lis.tagName === "DIV"){
-  
+
       lisChild = lis.querySelector('div')
-      
-  } 
-  
+
+  }
+
   return lisChild;
 
 }
