@@ -21,8 +21,5 @@ function deepestChild(){
   var lis = document.getElementById('app').querySelector('div#grand-node')
   var divValue;
   debugger
-  for (var i = 0; i < lis.length; i++) {
-    divValue = lis[i].innerHTML
-    console.log(divValue)
-  }
+  console.log(lis);
 }
