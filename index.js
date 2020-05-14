@@ -22,7 +22,7 @@ function deepestChild(){
   var divValue;
   debugger
   for (var i = 0; i < lis.length; i++) {
-
-    console.log(divValue = lis[i].innerHTML)
+    divValue = lis[i].innerHTML
+    console.log(divValue)
   }
 }
