@@ -25,8 +25,8 @@ function deepestChild(){
 
       lis = lis.querySelector('div')
 
-  } while(lis.tagName === 'DIV')
+  } while(lis.tagName === "DIV")
 
-  return lis[0];
+  return lis;
 
 }
