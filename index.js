@@ -22,6 +22,6 @@ function deepestChild(){
   var divValue;
   for (var i = 0; i < lis.length; i++) {
 
-    divValue = lis[i].innerHTML
+    console.log(divValue = lis[i].innerHTML)
   }
 }
