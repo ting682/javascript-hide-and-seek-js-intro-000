@@ -27,7 +27,7 @@ function deepestChild(){
       lisChild = lis
       lis = lis.querySelector('div')
       console.log(lisChild);
-      if(lis.tagName === null){
+      if(lis === null){
         return lisChild;
       }
   }
