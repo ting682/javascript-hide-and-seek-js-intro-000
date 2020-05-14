@@ -21,10 +21,12 @@ function deepestChild(){
   //var lis = document.getElementById('app').querySelector('div#grand-node').querySelector('div').querySelector('div').querySelector('div').querySelector('div')
   debugger
   var lis = document.getElementById('app').querySelector('div#grand-node')
-  while(lis.tagName == 'div'){
-    lis = lis.querySelector('div')
-  }
-
+  do{
+    if(lis.tagName === 'div'){
+      lis = lis.querySelector('div')
+    }
+  } while(lis.tagName === 'div')
+  
   return lis;
 
 }
