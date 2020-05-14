@@ -22,11 +22,14 @@ function deepestChild(){
   debugger
   var lis = document.getElementById('app').querySelector('div#grand-node')
   var lisChild;
-  while(lis.tagName === "DIV" || lis.tagName != null){
+  while(lis.tagName === "DIV"){
 
       lisChild = lis
       lis = lis.querySelector('div')
       console.log(lisChild);
+      if(lis.tagName === null){
+        return lisChild;
+      }
   }
 
   return lisChild;
