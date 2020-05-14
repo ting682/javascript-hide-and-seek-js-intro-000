@@ -20,6 +20,7 @@ function increaseRankBy(n){
 function deepestChild(){
   var lis = document.getElementById('app').querySelector('div#grand-node')
   var divValue;
+  debugger
   for (var i = 0; i < lis.length; i++) {
 
     console.log(divValue = lis[i].innerHTML)
