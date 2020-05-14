@@ -26,7 +26,7 @@ function deepestChild(){
 
       lisChild = lis
       lis = lis.querySelector('div')
-
+      console.log(lisChild);
   }
 
   return lisChild;
